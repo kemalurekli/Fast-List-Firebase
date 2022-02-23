@@ -5,6 +5,7 @@ INJECTED from /Users/kemal/AndroidStudioProjects/FastList/app/src/main/AndroidMa
 INJECTED from /Users/kemal/AndroidStudioProjects/FastList/app/src/main/AndroidManifest.xml:2:1-26:12
 INJECTED from /Users/kemal/AndroidStudioProjects/FastList/app/src/main/AndroidManifest.xml:2:1-26:12
 MERGED from [androidx.databinding:viewbinding:7.1.1] /Users/kemal/.gradle/caches/transforms-3/2fcbdb776ec28a5064afa650833865e3/transformed/viewbinding-7.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-ktx:2.4.1] /Users/kemal/.gradle/caches/transforms-3/4d7061a4c87988091b41a1a8cab521d8/transformed/room-ktx-2.4.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/kemal/.gradle/caches/transforms-3/7e81d4ccfc37de90f84917dffd0df9e7/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-auth-ktx:21.0.1] /Users/kemal/.gradle/caches/transforms-3/95cfcea4292438a0421bcfc836d085a8/transformed/firebase-auth-ktx-21.0.1/AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:17:1-83:12
@@ -57,6 +58,8 @@ MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/k
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/kemal/.gradle/caches/transforms-3/0a841837434d5a620864bcf424d2c31a/transformed/play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.fragment:fragment:1.4.1] /Users/kemal/.gradle/caches/transforms-3/b919e033f43a7d02a610ddccccbd46a0/transformed/fragment-1.4.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.7.0] /Users/kemal/.gradle/caches/transforms-3/c4e3ac89cb73b7a9088e707d82bf683d/transformed/core-ktx-1.7.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.room:room-runtime:2.4.1] /Users/kemal/.gradle/caches/transforms-3/4efe8d2a18fe1e9c0827b68f28d4b3da/transformed/room-runtime-2.4.1/AndroidManifest.xml:17:1-31:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/kemal/.gradle/caches/transforms-3/965e70281cb1c4d3de0cc07434ca162d/transformed/circleimageview-3.1.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.activity:activity:1.2.4] /Users/kemal/.gradle/caches/transforms-3/3294c474459ef32a3c7bfb24f4c1a2f4/transformed/activity-1.2.4/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/kemal/.gradle/caches/transforms-3/567682fbea8b6de6c95ddab192444180/transformed/appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/kemal/.gradle/caches/transforms-3/80dc374f2ef15b0caf1439b49655a72c/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
@@ -82,6 +85,8 @@ MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/kemal/.gradle/cach
 MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/kemal/.gradle/caches/transforms-3/e7e730f7423c4a6b434c6e5b6f7d3045/transformed/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/kemal/.gradle/caches/transforms-3/f2bb8ad4c91a9e08bf47b9a43d8e3dc2/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/kemal/.gradle/caches/transforms-3/5c5fb5d27d33ef674d719b52180f88a0/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/kemal/.gradle/caches/transforms-3/97e7d8aef4546dfc97822fc6ef1ffd52/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/kemal/.gradle/caches/transforms-3/683be9c48aa9960440373d8fddd88f6a/transformed/sqlite-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/kemal/.gradle/caches/transforms-3/234cd3becaff2b6fd6cce227a0388b3b/transformed/firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/kemal/.gradle/caches/transforms-3/525d149b85d63aeb8049ac53e21a0b81/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/kemal/.gradle/caches/transforms-3/52637118432f73ae2fb4c3c73cc2e25c/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
@@ -198,6 +203,10 @@ MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/k
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/kemal/.gradle/caches/transforms-3/0d0f3447c9bf87db05add39e8a39f705/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/kemal/.gradle/caches/transforms-3/0a841837434d5a620864bcf424d2c31a/transformed/play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/kemal/.gradle/caches/transforms-3/0a841837434d5a620864bcf424d2c31a/transformed/play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.room:room-runtime:2.4.1] /Users/kemal/.gradle/caches/transforms-3/4efe8d2a18fe1e9c0827b68f28d4b3da/transformed/room-runtime-2.4.1/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.4.1] /Users/kemal/.gradle/caches/transforms-3/4efe8d2a18fe1e9c0827b68f28d4b3da/transformed/room-runtime-2.4.1/AndroidManifest.xml:24:5-29:19
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/kemal/.gradle/caches/transforms-3/965e70281cb1c4d3de0cc07434ca162d/transformed/circleimageview-3.1.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/kemal/.gradle/caches/transforms-3/965e70281cb1c4d3de0cc07434ca162d/transformed/circleimageview-3.1.0/AndroidManifest.xml:9:5-20
 MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/kemal/.gradle/caches/transforms-3/787fabc5f2befcb012370b9d24fb3f3f/transformed/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/kemal/.gradle/caches/transforms-3/787fabc5f2befcb012370b9d24fb3f3f/transformed/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.core:core:1.7.0] /Users/kemal/.gradle/caches/transforms-3/dadef9eb779accb2fc1ce1bf4b9d0f4e/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
@@ -244,6 +253,8 @@ INJECTED from /Users/kemal/AndroidStudioProjects/FastList/app/src/main/AndroidMa
 INJECTED from /Users/kemal/AndroidStudioProjects/FastList/app/src/main/AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:7.1.1] /Users/kemal/.gradle/caches/transforms-3/2fcbdb776ec28a5064afa650833865e3/transformed/viewbinding-7.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.databinding:viewbinding:7.1.1] /Users/kemal/.gradle/caches/transforms-3/2fcbdb776ec28a5064afa650833865e3/transformed/viewbinding-7.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.4.1] /Users/kemal/.gradle/caches/transforms-3/4d7061a4c87988091b41a1a8cab521d8/transformed/room-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.4.1] /Users/kemal/.gradle/caches/transforms-3/4d7061a4c87988091b41a1a8cab521d8/transformed/room-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/kemal/.gradle/caches/transforms-3/7e81d4ccfc37de90f84917dffd0df9e7/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/kemal/.gradle/caches/transforms-3/7e81d4ccfc37de90f84917dffd0df9e7/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth-ktx:21.0.1] /Users/kemal/.gradle/caches/transforms-3/95cfcea4292438a0421bcfc836d085a8/transformed/firebase-auth-ktx-21.0.1/AndroidManifest.xml:5:5-44
@@ -348,6 +359,10 @@ MERGED from [androidx.fragment:fragment:1.4.1] /Users/kemal/.gradle/caches/trans
 MERGED from [androidx.fragment:fragment:1.4.1] /Users/kemal/.gradle/caches/transforms-3/b919e033f43a7d02a610ddccccbd46a0/transformed/fragment-1.4.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core-ktx:1.7.0] /Users/kemal/.gradle/caches/transforms-3/c4e3ac89cb73b7a9088e707d82bf683d/transformed/core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.core:core-ktx:1.7.0] /Users/kemal/.gradle/caches/transforms-3/c4e3ac89cb73b7a9088e707d82bf683d/transformed/core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.room:room-runtime:2.4.1] /Users/kemal/.gradle/caches/transforms-3/4efe8d2a18fe1e9c0827b68f28d4b3da/transformed/room-runtime-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.4.1] /Users/kemal/.gradle/caches/transforms-3/4efe8d2a18fe1e9c0827b68f28d4b3da/transformed/room-runtime-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/kemal/.gradle/caches/transforms-3/965e70281cb1c4d3de0cc07434ca162d/transformed/circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/kemal/.gradle/caches/transforms-3/965e70281cb1c4d3de0cc07434ca162d/transformed/circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.activity:activity:1.2.4] /Users/kemal/.gradle/caches/transforms-3/3294c474459ef32a3c7bfb24f4c1a2f4/transformed/activity-1.2.4/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.2.4] /Users/kemal/.gradle/caches/transforms-3/3294c474459ef32a3c7bfb24f4c1a2f4/transformed/activity-1.2.4/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/kemal/.gradle/caches/transforms-3/567682fbea8b6de6c95ddab192444180/transformed/appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
@@ -398,6 +413,10 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/kemal/.gradle/
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/kemal/.gradle/caches/transforms-3/f2bb8ad4c91a9e08bf47b9a43d8e3dc2/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/kemal/.gradle/caches/transforms-3/5c5fb5d27d33ef674d719b52180f88a0/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/kemal/.gradle/caches/transforms-3/5c5fb5d27d33ef674d719b52180f88a0/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/kemal/.gradle/caches/transforms-3/97e7d8aef4546dfc97822fc6ef1ffd52/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/kemal/.gradle/caches/transforms-3/97e7d8aef4546dfc97822fc6ef1ffd52/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/kemal/.gradle/caches/transforms-3/683be9c48aa9960440373d8fddd88f6a/transformed/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/kemal/.gradle/caches/transforms-3/683be9c48aa9960440373d8fddd88f6a/transformed/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/kemal/.gradle/caches/transforms-3/234cd3becaff2b6fd6cce227a0388b3b/transformed/firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/kemal/.gradle/caches/transforms-3/234cd3becaff2b6fd6cce227a0388b3b/transformed/firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/kemal/.gradle/caches/transforms-3/525d149b85d63aeb8049ac53e21a0b81/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
@@ -698,6 +717,14 @@ ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/kemal/.
 		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/kemal/.gradle/caches/transforms-3/0a841837434d5a620864bcf424d2c31a/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/kemal/.gradle/caches/transforms-3/0a841837434d5a620864bcf424d2c31a/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.4.1] /Users/kemal/.gradle/caches/transforms-3/4efe8d2a18fe1e9c0827b68f28d4b3da/transformed/room-runtime-2.4.1/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.4.1] /Users/kemal/.gradle/caches/transforms-3/4efe8d2a18fe1e9c0827b68f28d4b3da/transformed/room-runtime-2.4.1/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.4.1] /Users/kemal/.gradle/caches/transforms-3/4efe8d2a18fe1e9c0827b68f28d4b3da/transformed/room-runtime-2.4.1/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.4.1] /Users/kemal/.gradle/caches/transforms-3/4efe8d2a18fe1e9c0827b68f28d4b3da/transformed/room-runtime-2.4.1/AndroidManifest.xml:26:13-74
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/kemal/.gradle/caches/transforms-3/787fabc5f2befcb012370b9d24fb3f3f/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/kemal/.gradle/caches/transforms-3/52637118432f73ae2fb4c3c73cc2e25c/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20

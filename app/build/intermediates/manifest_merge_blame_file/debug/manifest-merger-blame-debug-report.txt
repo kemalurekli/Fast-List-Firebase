@@ -298,27 +298,36 @@
 160            android:value="@integer/google_play_services_version" />
 160-->[com.google.android.gms:play-services-basement:18.0.0] /Users/kemal/.gradle/caches/transforms-3/0a841837434d5a620864bcf424d2c31a/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
 161
-162        <provider
-162-->[androidx.emoji2:emoji2:1.0.0] /Users/kemal/.gradle/caches/transforms-3/787fabc5f2befcb012370b9d24fb3f3f/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-163            android:name="androidx.startup.InitializationProvider"
-163-->[androidx.emoji2:emoji2:1.0.0] /Users/kemal/.gradle/caches/transforms-3/787fabc5f2befcb012370b9d24fb3f3f/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
-164            android:authorities="com.kemalurekli.fastlist.androidx-startup"
-164-->[androidx.emoji2:emoji2:1.0.0] /Users/kemal/.gradle/caches/transforms-3/787fabc5f2befcb012370b9d24fb3f3f/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
-165            android:exported="false" >
-165-->[androidx.emoji2:emoji2:1.0.0] /Users/kemal/.gradle/caches/transforms-3/787fabc5f2befcb012370b9d24fb3f3f/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
-166            <meta-data
-166-->[androidx.emoji2:emoji2:1.0.0] /Users/kemal/.gradle/caches/transforms-3/787fabc5f2befcb012370b9d24fb3f3f/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
-167                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-167-->[androidx.emoji2:emoji2:1.0.0] /Users/kemal/.gradle/caches/transforms-3/787fabc5f2befcb012370b9d24fb3f3f/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
-168                android:value="androidx.startup" />
-168-->[androidx.emoji2:emoji2:1.0.0] /Users/kemal/.gradle/caches/transforms-3/787fabc5f2befcb012370b9d24fb3f3f/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
-169            <meta-data
-169-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/kemal/.gradle/caches/transforms-3/52637118432f73ae2fb4c3c73cc2e25c/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
-170                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-170-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/kemal/.gradle/caches/transforms-3/52637118432f73ae2fb4c3c73cc2e25c/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
-171                android:value="androidx.startup" />
-171-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/kemal/.gradle/caches/transforms-3/52637118432f73ae2fb4c3c73cc2e25c/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
-172        </provider>
-173    </application>
-174
-175</manifest>
+162        <service
+162-->[androidx.room:room-runtime:2.4.1] /Users/kemal/.gradle/caches/transforms-3/4efe8d2a18fe1e9c0827b68f28d4b3da/transformed/room-runtime-2.4.1/AndroidManifest.xml:25:9-28:40
+163            android:name="androidx.room.MultiInstanceInvalidationService"
+163-->[androidx.room:room-runtime:2.4.1] /Users/kemal/.gradle/caches/transforms-3/4efe8d2a18fe1e9c0827b68f28d4b3da/transformed/room-runtime-2.4.1/AndroidManifest.xml:26:13-74
+164            android:directBootAware="true"
+164-->[androidx.room:room-runtime:2.4.1] /Users/kemal/.gradle/caches/transforms-3/4efe8d2a18fe1e9c0827b68f28d4b3da/transformed/room-runtime-2.4.1/AndroidManifest.xml:27:13-43
+165            android:exported="false" />
+165-->[androidx.room:room-runtime:2.4.1] /Users/kemal/.gradle/caches/transforms-3/4efe8d2a18fe1e9c0827b68f28d4b3da/transformed/room-runtime-2.4.1/AndroidManifest.xml:28:13-37
+166
+167        <provider
+167-->[androidx.emoji2:emoji2:1.0.0] /Users/kemal/.gradle/caches/transforms-3/787fabc5f2befcb012370b9d24fb3f3f/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+168            android:name="androidx.startup.InitializationProvider"
+168-->[androidx.emoji2:emoji2:1.0.0] /Users/kemal/.gradle/caches/transforms-3/787fabc5f2befcb012370b9d24fb3f3f/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+169            android:authorities="com.kemalurekli.fastlist.androidx-startup"
+169-->[androidx.emoji2:emoji2:1.0.0] /Users/kemal/.gradle/caches/transforms-3/787fabc5f2befcb012370b9d24fb3f3f/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+170            android:exported="false" >
+170-->[androidx.emoji2:emoji2:1.0.0] /Users/kemal/.gradle/caches/transforms-3/787fabc5f2befcb012370b9d24fb3f3f/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+171            <meta-data
+171-->[androidx.emoji2:emoji2:1.0.0] /Users/kemal/.gradle/caches/transforms-3/787fabc5f2befcb012370b9d24fb3f3f/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+172                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+172-->[androidx.emoji2:emoji2:1.0.0] /Users/kemal/.gradle/caches/transforms-3/787fabc5f2befcb012370b9d24fb3f3f/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+173                android:value="androidx.startup" />
+173-->[androidx.emoji2:emoji2:1.0.0] /Users/kemal/.gradle/caches/transforms-3/787fabc5f2befcb012370b9d24fb3f3f/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+174            <meta-data
+174-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/kemal/.gradle/caches/transforms-3/52637118432f73ae2fb4c3c73cc2e25c/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+175                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+175-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/kemal/.gradle/caches/transforms-3/52637118432f73ae2fb4c3c73cc2e25c/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+176                android:value="androidx.startup" />
+176-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/kemal/.gradle/caches/transforms-3/52637118432f73ae2fb4c3c73cc2e25c/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+177        </provider>
+178    </application>
+179
+180</manifest>

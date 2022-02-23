@@ -267,6 +267,10 @@ int attr circularflow_defaultAngle 0x7f0300c1
 int attr circularflow_defaultRadius 0x7f0300c2
 int attr circularflow_radiusInDP 0x7f0300c3
 int attr circularflow_viewCenter 0x7f0300c4
+int attr civ_border_color 0x7f030474
+int attr civ_border_overlay 0x7f030475
+int attr civ_border_width 0x7f030476
+int attr civ_circle_background_color 0x7f030477
 int attr clearTop 0x7f0300c5
 int attr clearsTag 0x7f0300c6
 int attr clickAction 0x7f0300c7
@@ -1840,6 +1844,7 @@ int color test_mtrl_calendar_day 0x7f05025e
 int color test_mtrl_calendar_day_selected 0x7f05025f
 int color tooltip_background_dark 0x7f050260
 int color tooltip_background_light 0x7f050261
+int color underLine 0x7f050265
 int color white 0x7f050262
 int dimen abc_action_bar_content_inset_material 0x7f060000
 int dimen abc_action_bar_content_inset_with_nav 0x7f060001
@@ -2548,9 +2553,17 @@ int drawable googleg_disabled_color_18 0x7f070078
 int drawable googleg_standard_color_18 0x7f070079
 int drawable ic_baseline 0x7f0700b2
 int drawable ic_baseline_add_24 0x7f0700b6
+int drawable ic_baseline_delete_24 0x7f0700b7
 int drawable ic_baseline_email_24 0x7f0700b3
 int drawable ic_baseline_error_24 0x7f0700b4
+int drawable ic_baseline_home_24 0x7f0700b8
 int drawable ic_baseline_lock_24 0x7f0700b5
+int drawable ic_baseline_login_24 0x7f0700b9
+int drawable ic_baseline_message_24 0x7f0700ba
+int drawable ic_baseline_rate_review_24 0x7f0700bb
+int drawable ic_baseline_settings_24 0x7f0700bc
+int drawable ic_baseline_share_24 0x7f0700bd
+int drawable ic_baseline_sync_24 0x7f0700be
 int drawable ic_clock_black_24dp 0x7f07007a
 int drawable ic_keyboard_black_24dp 0x7f07007b
 int drawable ic_launcher_background 0x7f07007c
@@ -2603,6 +2616,7 @@ int drawable notification_template_icon_bg 0x7f0700aa
 int drawable notification_template_icon_low_bg 0x7f0700ab
 int drawable notification_tile_bg 0x7f0700ac
 int drawable notify_panel_notification_icon_bg 0x7f0700ad
+int drawable profiledefault 0x7f0700bf
 int drawable test_custom_background 0x7f0700ae
 int drawable test_level_drawable 0x7f0700af
 int drawable tooltip_frame_dark 0x7f0700b0
@@ -2794,6 +2808,7 @@ int id dragLeft 0x7f0800b0
 int id dragRight 0x7f0800b1
 int id dragStart 0x7f0800b2
 int id dragUp 0x7f0800b3
+int id drawerLayout 0x7f080219
 int id dropdown_menu 0x7f0800b4
 int id easeIn 0x7f0800b5
 int id easeInOut 0x7f0800b6
@@ -2931,7 +2946,16 @@ int id mtrl_picker_title_text 0x7f080137
 int id mtrl_view_tag_bottom_padding 0x7f080138
 int id multiply 0x7f080139
 int id nav_controller_view_tag 0x7f08013a
+int id nav_home 0x7f08021a
 int id nav_host_fragment_container 0x7f08013b
+int id nav_login 0x7f08021b
+int id nav_message 0x7f08021c
+int id nav_rate_us 0x7f08021d
+int id nav_setting 0x7f08021e
+int id nav_share 0x7f08021f
+int id nav_sync 0x7f080220
+int id nav_trash 0x7f080221
+int id nav_view 0x7f080222
 int id navigation_bar_item_active_indicator_view 0x7f08013c
 int id navigation_bar_item_icon_container 0x7f08013d
 int id navigation_bar_item_icon_view 0x7f08013e
@@ -3126,6 +3150,7 @@ int id uniform 0x7f0801e2
 int id unlabeled 0x7f0801e3
 int id up 0x7f0801e4
 int id useLogo 0x7f0801e5
+int id user_name 0x7f080223
 int id vertical_only 0x7f0801e6
 int id view_offset_helper 0x7f0801e7
 int id view_transition 0x7f0801e8
@@ -3300,6 +3325,7 @@ int layout mtrl_picker_header_title_text 0x7f0b005a
 int layout mtrl_picker_header_toggle 0x7f0b005b
 int layout mtrl_picker_text_input_date 0x7f0b005c
 int layout mtrl_picker_text_input_date_range 0x7f0b005d
+int layout nav_header 0x7f0b0083
 int layout notification_action 0x7f0b005e
 int layout notification_action_tombstone 0x7f0b005f
 int layout notification_media_action 0x7f0b0060
@@ -3337,6 +3363,7 @@ int layout text_view_without_line_height 0x7f0b007f
 int menu add_menu 0x7f0c0002
 int menu example_menu 0x7f0c0000
 int menu example_menu2 0x7f0c0001
+int menu nav_menu 0x7f0c0003
 int mipmap ic_launcher 0x7f0d0000
 int mipmap ic_launcher_round 0x7f0d0001
 int navigation app_graph 0x7f0e0000
@@ -3378,6 +3405,7 @@ int string character_counter_overflowed_content_description 0x7f100021
 int string character_counter_pattern 0x7f100022
 int string chip_text 0x7f100023
 int string clear_text_end_icon_content_description 0x7f100024
+int string close 0x7f1000a0
 int string common_google_play_services_enable_button 0x7f100025
 int string common_google_play_services_enable_text 0x7f100026
 int string common_google_play_services_enable_title 0x7f100027
@@ -3493,6 +3521,7 @@ int string mtrl_picker_toggle_to_year_selection 0x7f100094
 int string mtrl_timepicker_confirm 0x7f100095
 int string nav_app_bar_navigate_up_description 0x7f100096
 int string nav_app_bar_open_drawer_description 0x7f100097
+int string open 0x7f1000a1
 int string password_toggle_content_description 0x7f100098
 int string path_password_eye 0x7f100099
 int string path_password_eye_mask_strike_through 0x7f10009a
@@ -4938,6 +4967,11 @@ int styleable ChipGroup_chipSpacingVertical 3
 int styleable ChipGroup_selectionRequired 4
 int styleable ChipGroup_singleLine 5
 int styleable ChipGroup_singleSelection 6
+int[] styleable CircleImageView { 0x7f030474, 0x7f030475, 0x7f030476, 0x7f030477 }
+int styleable CircleImageView_civ_border_color 0
+int styleable CircleImageView_civ_border_overlay 1
+int styleable CircleImageView_civ_border_width 2
+int styleable CircleImageView_civ_circle_background_color 3
 int[] styleable CircularProgressIndicator { 0x7f030206, 0x7f030208, 0x7f030209 }
 int styleable CircularProgressIndicator_indicatorDirectionCircular 0
 int styleable CircularProgressIndicator_indicatorInset 1
