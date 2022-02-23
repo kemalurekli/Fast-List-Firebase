@@ -1,0 +1,324 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.kemalurekli.fastlist"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/Users/kemal/AndroidStudioProjects/FastList/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/kemal/AndroidStudioProjects/FastList/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/kemal/AndroidStudioProjects/FastList/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/kemal/AndroidStudioProjects/FastList/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/Users/kemal/AndroidStudioProjects/FastList/app/src/main/AndroidManifest.xml:6:5-80
+12-->/Users/kemal/AndroidStudioProjects/FastList/app/src/main/AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
+13-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:24:22-76
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[com.google.android.gms:play-services-measurement-api:20.1.0] /Users/kemal/.gradle/caches/transforms-3/a5f207518cfb7f7495916a6f53839015/transformed/play-services-measurement-api-20.1.0/AndroidManifest.xml:24:5-68
+14-->[com.google.android.gms:play-services-measurement-api:20.1.0] /Users/kemal/.gradle/caches/transforms-3/a5f207518cfb7f7495916a6f53839015/transformed/play-services-measurement-api-20.1.0/AndroidManifest.xml:24:22-65
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Include required permissions for Advertising Id -->
+15-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/kemal/.gradle/caches/transforms-3/6ef7ddad2e6d0717e6f7836167d097a3/transformed/play-services-measurement-20.1.0/AndroidManifest.xml:26:5-110
+15-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/kemal/.gradle/caches/transforms-3/6ef7ddad2e6d0717e6f7836167d097a3/transformed/play-services-measurement-20.1.0/AndroidManifest.xml:26:22-107
+16    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+16-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/kemal/.gradle/caches/transforms-3/55f0b464a6e9ba185d9318a0e0c22bf3/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+16-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/kemal/.gradle/caches/transforms-3/55f0b464a6e9ba185d9318a0e0c22bf3/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:22-76
+17
+18    <application
+18-->/Users/kemal/AndroidStudioProjects/FastList/app/src/main/AndroidManifest.xml:8:5-24:19
+19        android:allowBackup="true"
+19-->/Users/kemal/AndroidStudioProjects/FastList/app/src/main/AndroidManifest.xml:9:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.7.0] /Users/kemal/.gradle/caches/transforms-3/dadef9eb779accb2fc1ce1bf4b9d0f4e/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:icon="@mipmap/ic_launcher"
+23-->/Users/kemal/AndroidStudioProjects/FastList/app/src/main/AndroidManifest.xml:10:9-43
+24        android:label="@string/app_name"
+24-->/Users/kemal/AndroidStudioProjects/FastList/app/src/main/AndroidManifest.xml:11:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/Users/kemal/AndroidStudioProjects/FastList/app/src/main/AndroidManifest.xml:12:9-54
+26        android:supportsRtl="true"
+26-->/Users/kemal/AndroidStudioProjects/FastList/app/src/main/AndroidManifest.xml:13:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.FastList" >
+28-->/Users/kemal/AndroidStudioProjects/FastList/app/src/main/AndroidManifest.xml:14:9-46
+29        <activity
+29-->/Users/kemal/AndroidStudioProjects/FastList/app/src/main/AndroidManifest.xml:15:9-23:20
+30            android:name="com.kemalurekli.fastlist.view.MainActivity"
+30-->/Users/kemal/AndroidStudioProjects/FastList/app/src/main/AndroidManifest.xml:16:13-46
+31            android:exported="true" >
+31-->/Users/kemal/AndroidStudioProjects/FastList/app/src/main/AndroidManifest.xml:17:13-36
+32            <intent-filter>
+32-->/Users/kemal/AndroidStudioProjects/FastList/app/src/main/AndroidManifest.xml:18:13-22:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/Users/kemal/AndroidStudioProjects/FastList/app/src/main/AndroidManifest.xml:19:17-69
+33-->/Users/kemal/AndroidStudioProjects/FastList/app/src/main/AndroidManifest.xml:19:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/Users/kemal/AndroidStudioProjects/FastList/app/src/main/AndroidManifest.xml:21:17-77
+35-->/Users/kemal/AndroidStudioProjects/FastList/app/src/main/AndroidManifest.xml:21:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <service
+39-->[com.google.firebase:firebase-auth-ktx:21.0.1] /Users/kemal/.gradle/caches/transforms-3/95cfcea4292438a0421bcfc836d085a8/transformed/firebase-auth-ktx-21.0.1/AndroidManifest.xml:8:9-14:19
+40            android:name="com.google.firebase.components.ComponentDiscoveryService"
+40-->[com.google.firebase:firebase-auth-ktx:21.0.1] /Users/kemal/.gradle/caches/transforms-3/95cfcea4292438a0421bcfc836d085a8/transformed/firebase-auth-ktx-21.0.1/AndroidManifest.xml:9:13-84
+41            android:directBootAware="true"
+41-->[com.google.firebase:firebase-common:20.0.0] /Users/kemal/.gradle/caches/transforms-3/0d81222a72aeb8e2ffebf3d343e64857/transformed/firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+42            android:exported="false" >
+42-->[com.google.firebase:firebase-auth-ktx:21.0.1] /Users/kemal/.gradle/caches/transforms-3/95cfcea4292438a0421bcfc836d085a8/transformed/firebase-auth-ktx-21.0.1/AndroidManifest.xml:10:13-37
+43            <meta-data
+43-->[com.google.firebase:firebase-auth-ktx:21.0.1] /Users/kemal/.gradle/caches/transforms-3/95cfcea4292438a0421bcfc836d085a8/transformed/firebase-auth-ktx-21.0.1/AndroidManifest.xml:11:13-13:85
+44                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+44-->[com.google.firebase:firebase-auth-ktx:21.0.1] /Users/kemal/.gradle/caches/transforms-3/95cfcea4292438a0421bcfc836d085a8/transformed/firebase-auth-ktx-21.0.1/AndroidManifest.xml:12:17-116
+45                android:value="com.google.firebase.components.ComponentRegistrar" />
+45-->[com.google.firebase:firebase-auth-ktx:21.0.1] /Users/kemal/.gradle/caches/transforms-3/95cfcea4292438a0421bcfc836d085a8/transformed/firebase-auth-ktx-21.0.1/AndroidManifest.xml:13:17-82
+46            <meta-data
+46-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+47                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+47-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+48                android:value="com.google.firebase.components.ComponentRegistrar" />
+48-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+49            <meta-data
+49-->[com.google.firebase:firebase-storage-ktx:20.0.0] /Users/kemal/.gradle/caches/transforms-3/7e67600b78880697892fa336361d9854/transformed/firebase-storage-ktx-20.0.0/AndroidManifest.xml:15:13-17:85
+50                android:name="com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageKtxRegistrar"
+50-->[com.google.firebase:firebase-storage-ktx:20.0.0] /Users/kemal/.gradle/caches/transforms-3/7e67600b78880697892fa336361d9854/transformed/firebase-storage-ktx-20.0.0/AndroidManifest.xml:16:17-122
+51                android:value="com.google.firebase.components.ComponentRegistrar" />
+51-->[com.google.firebase:firebase-storage-ktx:20.0.0] /Users/kemal/.gradle/caches/transforms-3/7e67600b78880697892fa336361d9854/transformed/firebase-storage-ktx-20.0.0/AndroidManifest.xml:17:17-82
+52            <meta-data
+52-->[com.google.firebase:firebase-storage:20.0.0] /Users/kemal/.gradle/caches/transforms-3/7b15ba2fbd42331cd2b6edcecfd9325b/transformed/firebase-storage-20.0.0/AndroidManifest.xml:33:13-35:85
+53                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+53-->[com.google.firebase:firebase-storage:20.0.0] /Users/kemal/.gradle/caches/transforms-3/7b15ba2fbd42331cd2b6edcecfd9325b/transformed/firebase-storage-20.0.0/AndroidManifest.xml:34:17-107
+54                android:value="com.google.firebase.components.ComponentRegistrar" />
+54-->[com.google.firebase:firebase-storage:20.0.0] /Users/kemal/.gradle/caches/transforms-3/7b15ba2fbd42331cd2b6edcecfd9325b/transformed/firebase-storage-20.0.0/AndroidManifest.xml:35:17-82
+55            <meta-data
+55-->[com.google.firebase:firebase-firestore-ktx:24.0.1] /Users/kemal/.gradle/caches/transforms-3/ac4b8864225bed601f2ed337ed5657ac/transformed/firebase-firestore-ktx-24.0.1/AndroidManifest.xml:15:13-17:85
+56                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar"
+56-->[com.google.firebase:firebase-firestore-ktx:24.0.1] /Users/kemal/.gradle/caches/transforms-3/ac4b8864225bed601f2ed337ed5657ac/transformed/firebase-firestore-ktx-24.0.1/AndroidManifest.xml:16:17-126
+57                android:value="com.google.firebase.components.ComponentRegistrar" />
+57-->[com.google.firebase:firebase-firestore-ktx:24.0.1] /Users/kemal/.gradle/caches/transforms-3/ac4b8864225bed601f2ed337ed5657ac/transformed/firebase-firestore-ktx-24.0.1/AndroidManifest.xml:17:17-82
+58            <meta-data
+58-->[com.google.firebase:firebase-firestore:24.0.1] /Users/kemal/.gradle/caches/transforms-3/e9b95436b9ab565158689c070e6498bf/transformed/firebase-firestore-24.0.1/AndroidManifest.xml:20:13-22:85
+59                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+59-->[com.google.firebase:firebase-firestore:24.0.1] /Users/kemal/.gradle/caches/transforms-3/e9b95436b9ab565158689c070e6498bf/transformed/firebase-firestore-24.0.1/AndroidManifest.xml:21:17-111
+60                android:value="com.google.firebase.components.ComponentRegistrar" />
+60-->[com.google.firebase:firebase-firestore:24.0.1] /Users/kemal/.gradle/caches/transforms-3/e9b95436b9ab565158689c070e6498bf/transformed/firebase-firestore-24.0.1/AndroidManifest.xml:22:17-82
+61            <meta-data
+61-->[com.google.firebase:firebase-analytics-ktx:20.1.0] /Users/kemal/.gradle/caches/transforms-3/041d3fbe2bb1efb3e27c988b8c88ab19/transformed/firebase-analytics-ktx-20.1.0/AndroidManifest.xml:11:13-13:85
+62                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+62-->[com.google.firebase:firebase-analytics-ktx:20.1.0] /Users/kemal/.gradle/caches/transforms-3/041d3fbe2bb1efb3e27c988b8c88ab19/transformed/firebase-analytics-ktx-20.1.0/AndroidManifest.xml:12:17-126
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[com.google.firebase:firebase-analytics-ktx:20.1.0] /Users/kemal/.gradle/caches/transforms-3/041d3fbe2bb1efb3e27c988b8c88ab19/transformed/firebase-analytics-ktx-20.1.0/AndroidManifest.xml:13:17-82
+64            <meta-data
+64-->[com.google.firebase:firebase-common-ktx:20.0.0] /Users/kemal/.gradle/caches/transforms-3/78b342630fc5f1228dc839b77bb5b30c/transformed/firebase-common-ktx-20.0.0/AndroidManifest.xml:15:13-17:85
+65                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+65-->[com.google.firebase:firebase-common-ktx:20.0.0] /Users/kemal/.gradle/caches/transforms-3/78b342630fc5f1228dc839b77bb5b30c/transformed/firebase-common-ktx-20.0.0/AndroidManifest.xml:16:17-113
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.firebase:firebase-common-ktx:20.0.0] /Users/kemal/.gradle/caches/transforms-3/78b342630fc5f1228dc839b77bb5b30c/transformed/firebase-common-ktx-20.0.0/AndroidManifest.xml:17:17-82
+67            <meta-data
+67-->[com.google.android.gms:play-services-measurement-api:20.1.0] /Users/kemal/.gradle/caches/transforms-3/a5f207518cfb7f7495916a6f53839015/transformed/play-services-measurement-api-20.1.0/AndroidManifest.xml:30:13-32:85
+68                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+68-->[com.google.android.gms:play-services-measurement-api:20.1.0] /Users/kemal/.gradle/caches/transforms-3/a5f207518cfb7f7495916a6f53839015/transformed/play-services-measurement-api-20.1.0/AndroidManifest.xml:31:17-139
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.android.gms:play-services-measurement-api:20.1.0] /Users/kemal/.gradle/caches/transforms-3/a5f207518cfb7f7495916a6f53839015/transformed/play-services-measurement-api-20.1.0/AndroidManifest.xml:32:17-82
+70            <meta-data
+70-->[com.google.firebase:firebase-installations:17.0.0] /Users/kemal/.gradle/caches/transforms-3/4c4bfddcee0f06bdfcb5b719ad59b8a8/transformed/firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+71                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+71-->[com.google.firebase:firebase-installations:17.0.0] /Users/kemal/.gradle/caches/transforms-3/4c4bfddcee0f06bdfcb5b719ad59b8a8/transformed/firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.firebase:firebase-installations:17.0.0] /Users/kemal/.gradle/caches/transforms-3/4c4bfddcee0f06bdfcb5b719ad59b8a8/transformed/firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+73        </service>
+74
+75        <activity
+75-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+76            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+76-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+77            android:excludeFromRecents="true"
+77-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+78            android:exported="true"
+78-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+79            android:launchMode="singleTask"
+79-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+80            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+80-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+81            <intent-filter>
+81-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+82                <action android:name="android.intent.action.VIEW" />
+82-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+82-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+83
+84                <category android:name="android.intent.category.DEFAULT" />
+84-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+84-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+85                <category android:name="android.intent.category.BROWSABLE" />
+85-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+85-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+86
+87                <data
+87-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+88                    android:host="firebase.auth"
+88-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+89                    android:path="/"
+89-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+90                    android:scheme="genericidp" />
+90-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+91            </intent-filter>
+92        </activity>
+93        <activity
+93-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+94            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+94-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+95            android:excludeFromRecents="true"
+95-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+96            android:exported="true"
+96-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+97            android:launchMode="singleTask"
+97-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+98            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+98-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+99            <intent-filter>
+99-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+100                <action android:name="android.intent.action.VIEW" />
+100-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+100-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+101
+102                <category android:name="android.intent.category.DEFAULT" />
+102-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+102-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+103                <category android:name="android.intent.category.BROWSABLE" />
+103-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+103-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+104
+105                <data
+105-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+106                    android:host="firebase.auth"
+106-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+107                    android:path="/"
+107-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+108                    android:scheme="recaptcha" />
+108-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+109            </intent-filter>
+110        </activity>
+111
+112        <service
+112-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+113            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+113-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+114            android:enabled="true"
+114-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+115            android:exported="false" >
+115-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+116            <intent-filter>
+116-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+117                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+117-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+117-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+118
+119                <category android:name="android.intent.category.DEFAULT" />
+119-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+119-->[com.google.firebase:firebase-auth:21.0.1] /Users/kemal/.gradle/caches/transforms-3/f0652701d39dd1ce8b46613bbc6e0dc8/transformed/firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+120            </intent-filter>
+121        </service>
+122
+123        <uses-library
+123-->[androidx.window:window:1.0.0] /Users/kemal/.gradle/caches/transforms-3/c90a589d2a9e966eef5aae94246eb62e/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+124            android:name="androidx.window.extensions"
+124-->[androidx.window:window:1.0.0] /Users/kemal/.gradle/caches/transforms-3/c90a589d2a9e966eef5aae94246eb62e/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+125            android:required="false" />
+125-->[androidx.window:window:1.0.0] /Users/kemal/.gradle/caches/transforms-3/c90a589d2a9e966eef5aae94246eb62e/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+126        <uses-library
+126-->[androidx.window:window:1.0.0] /Users/kemal/.gradle/caches/transforms-3/c90a589d2a9e966eef5aae94246eb62e/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+127            android:name="androidx.window.sidecar"
+127-->[androidx.window:window:1.0.0] /Users/kemal/.gradle/caches/transforms-3/c90a589d2a9e966eef5aae94246eb62e/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+128            android:required="false" />
+128-->[androidx.window:window:1.0.0] /Users/kemal/.gradle/caches/transforms-3/c90a589d2a9e966eef5aae94246eb62e/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+129
+130        <activity
+130-->[com.google.android.gms:play-services-base:17.1.0] /Users/kemal/.gradle/caches/transforms-3/bb663f00d50621e74c02306aef9b4aee/transformed/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+131            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+131-->[com.google.android.gms:play-services-base:17.1.0] /Users/kemal/.gradle/caches/transforms-3/bb663f00d50621e74c02306aef9b4aee/transformed/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+132            android:exported="false"
+132-->[com.google.android.gms:play-services-base:17.1.0] /Users/kemal/.gradle/caches/transforms-3/bb663f00d50621e74c02306aef9b4aee/transformed/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+133            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+133-->[com.google.android.gms:play-services-base:17.1.0] /Users/kemal/.gradle/caches/transforms-3/bb663f00d50621e74c02306aef9b4aee/transformed/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+134
+135        <provider
+135-->[com.google.firebase:firebase-common:20.0.0] /Users/kemal/.gradle/caches/transforms-3/0d81222a72aeb8e2ffebf3d343e64857/transformed/firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+136            android:name="com.google.firebase.provider.FirebaseInitProvider"
+136-->[com.google.firebase:firebase-common:20.0.0] /Users/kemal/.gradle/caches/transforms-3/0d81222a72aeb8e2ffebf3d343e64857/transformed/firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+137            android:authorities="com.kemalurekli.fastlist.firebaseinitprovider"
+137-->[com.google.firebase:firebase-common:20.0.0] /Users/kemal/.gradle/caches/transforms-3/0d81222a72aeb8e2ffebf3d343e64857/transformed/firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+138            android:directBootAware="true"
+138-->[com.google.firebase:firebase-common:20.0.0] /Users/kemal/.gradle/caches/transforms-3/0d81222a72aeb8e2ffebf3d343e64857/transformed/firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+139            android:exported="false"
+139-->[com.google.firebase:firebase-common:20.0.0] /Users/kemal/.gradle/caches/transforms-3/0d81222a72aeb8e2ffebf3d343e64857/transformed/firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+140            android:initOrder="100" />
+140-->[com.google.firebase:firebase-common:20.0.0] /Users/kemal/.gradle/caches/transforms-3/0d81222a72aeb8e2ffebf3d343e64857/transformed/firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+141
+142        <receiver
+142-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/kemal/.gradle/caches/transforms-3/6ef7ddad2e6d0717e6f7836167d097a3/transformed/play-services-measurement-20.1.0/AndroidManifest.xml:29:9-33:20
+143            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+143-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/kemal/.gradle/caches/transforms-3/6ef7ddad2e6d0717e6f7836167d097a3/transformed/play-services-measurement-20.1.0/AndroidManifest.xml:30:13-85
+144            android:enabled="true"
+144-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/kemal/.gradle/caches/transforms-3/6ef7ddad2e6d0717e6f7836167d097a3/transformed/play-services-measurement-20.1.0/AndroidManifest.xml:31:13-35
+145            android:exported="false" >
+145-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/kemal/.gradle/caches/transforms-3/6ef7ddad2e6d0717e6f7836167d097a3/transformed/play-services-measurement-20.1.0/AndroidManifest.xml:32:13-37
+146        </receiver>
+147
+148        <service
+148-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/kemal/.gradle/caches/transforms-3/6ef7ddad2e6d0717e6f7836167d097a3/transformed/play-services-measurement-20.1.0/AndroidManifest.xml:35:9-38:40
+149            android:name="com.google.android.gms.measurement.AppMeasurementService"
+149-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/kemal/.gradle/caches/transforms-3/6ef7ddad2e6d0717e6f7836167d097a3/transformed/play-services-measurement-20.1.0/AndroidManifest.xml:36:13-84
+150            android:enabled="true"
+150-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/kemal/.gradle/caches/transforms-3/6ef7ddad2e6d0717e6f7836167d097a3/transformed/play-services-measurement-20.1.0/AndroidManifest.xml:37:13-35
+151            android:exported="false" />
+151-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/kemal/.gradle/caches/transforms-3/6ef7ddad2e6d0717e6f7836167d097a3/transformed/play-services-measurement-20.1.0/AndroidManifest.xml:38:13-37
+152        <service
+152-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/kemal/.gradle/caches/transforms-3/6ef7ddad2e6d0717e6f7836167d097a3/transformed/play-services-measurement-20.1.0/AndroidManifest.xml:39:9-43:72
+153            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+153-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/kemal/.gradle/caches/transforms-3/6ef7ddad2e6d0717e6f7836167d097a3/transformed/play-services-measurement-20.1.0/AndroidManifest.xml:40:13-87
+154            android:enabled="true"
+154-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/kemal/.gradle/caches/transforms-3/6ef7ddad2e6d0717e6f7836167d097a3/transformed/play-services-measurement-20.1.0/AndroidManifest.xml:41:13-35
+155            android:exported="false"
+155-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/kemal/.gradle/caches/transforms-3/6ef7ddad2e6d0717e6f7836167d097a3/transformed/play-services-measurement-20.1.0/AndroidManifest.xml:42:13-37
+156            android:permission="android.permission.BIND_JOB_SERVICE" />
+156-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/kemal/.gradle/caches/transforms-3/6ef7ddad2e6d0717e6f7836167d097a3/transformed/play-services-measurement-20.1.0/AndroidManifest.xml:43:13-69
+157
+158        <meta-data
+158-->[com.google.android.gms:play-services-basement:18.0.0] /Users/kemal/.gradle/caches/transforms-3/0a841837434d5a620864bcf424d2c31a/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+159            android:name="com.google.android.gms.version"
+159-->[com.google.android.gms:play-services-basement:18.0.0] /Users/kemal/.gradle/caches/transforms-3/0a841837434d5a620864bcf424d2c31a/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+160            android:value="@integer/google_play_services_version" />
+160-->[com.google.android.gms:play-services-basement:18.0.0] /Users/kemal/.gradle/caches/transforms-3/0a841837434d5a620864bcf424d2c31a/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+161
+162        <provider
+162-->[androidx.emoji2:emoji2:1.0.0] /Users/kemal/.gradle/caches/transforms-3/787fabc5f2befcb012370b9d24fb3f3f/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+163            android:name="androidx.startup.InitializationProvider"
+163-->[androidx.emoji2:emoji2:1.0.0] /Users/kemal/.gradle/caches/transforms-3/787fabc5f2befcb012370b9d24fb3f3f/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+164            android:authorities="com.kemalurekli.fastlist.androidx-startup"
+164-->[androidx.emoji2:emoji2:1.0.0] /Users/kemal/.gradle/caches/transforms-3/787fabc5f2befcb012370b9d24fb3f3f/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+165            android:exported="false" >
+165-->[androidx.emoji2:emoji2:1.0.0] /Users/kemal/.gradle/caches/transforms-3/787fabc5f2befcb012370b9d24fb3f3f/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+166            <meta-data
+166-->[androidx.emoji2:emoji2:1.0.0] /Users/kemal/.gradle/caches/transforms-3/787fabc5f2befcb012370b9d24fb3f3f/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+167                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+167-->[androidx.emoji2:emoji2:1.0.0] /Users/kemal/.gradle/caches/transforms-3/787fabc5f2befcb012370b9d24fb3f3f/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+168                android:value="androidx.startup" />
+168-->[androidx.emoji2:emoji2:1.0.0] /Users/kemal/.gradle/caches/transforms-3/787fabc5f2befcb012370b9d24fb3f3f/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+169            <meta-data
+169-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/kemal/.gradle/caches/transforms-3/52637118432f73ae2fb4c3c73cc2e25c/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+170                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+170-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/kemal/.gradle/caches/transforms-3/52637118432f73ae2fb4c3c73cc2e25c/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+171                android:value="androidx.startup" />
+171-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/kemal/.gradle/caches/transforms-3/52637118432f73ae2fb4c3c73cc2e25c/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+172        </provider>
+173    </application>
+174
+175</manifest>
