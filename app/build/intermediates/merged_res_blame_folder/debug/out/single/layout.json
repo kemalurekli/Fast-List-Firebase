@@ -8,12 +8,20 @@
         "source": "/Users/kemal/AndroidStudioProjects/FastList/app/src/main/res/layout/fragment_forgot_password.xml"
     },
     {
+        "merged": "/Users/kemal/AndroidStudioProjects/FastList/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_new_list.xml",
+        "source": "/Users/kemal/AndroidStudioProjects/FastList/app/src/main/res/layout/fragment_new_list.xml"
+    },
+    {
         "merged": "/Users/kemal/AndroidStudioProjects/FastList/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_sign_in.xml",
         "source": "/Users/kemal/AndroidStudioProjects/FastList/app/src/main/res/layout/fragment_sign_in.xml"
     },
     {
         "merged": "/Users/kemal/AndroidStudioProjects/FastList/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/nav_header.xml",
         "source": "/Users/kemal/AndroidStudioProjects/FastList/app/src/main/res/layout/nav_header.xml"
+    },
+    {
+        "merged": "/Users/kemal/AndroidStudioProjects/FastList/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_profile.xml",
+        "source": "/Users/kemal/AndroidStudioProjects/FastList/app/src/main/res/layout/fragment_profile.xml"
     },
     {
         "merged": "/Users/kemal/AndroidStudioProjects/FastList/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_home.xml",

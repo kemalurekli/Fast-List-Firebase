@@ -5,11 +5,11 @@
     <item
         android:id="@+id/nav_home"
         android:icon="@drawable/ic_baseline_home_24"
-        android:title="Home"/>
+        android:title="My Notes"/>
     <item
         android:id="@+id/nav_message"
         android:icon="@drawable/ic_baseline_message_24"
-        android:title="Message"/>
+        android:title="Shared Notes"/>
     <item
         android:id="@+id/nav_sync"
         android:title="Sync"

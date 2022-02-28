@@ -1296,6 +1296,7 @@ color common_google_signin_btn_text_light_disabled
 color common_google_signin_btn_text_light_focused
 color common_google_signin_btn_text_light_pressed
 color common_google_signin_btn_tint
+color delete_shadow
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -2685,6 +2686,8 @@ id action_container
 id action_context_bar
 id action_divider
 id action_forgotPasswordFragment_to_signInFragment
+id action_global_profileFragment
+id action_homeFragment_to_profileFragment
 id action_homeFragment_to_signInFragment
 id action_image
 id action_menu_divider
@@ -2692,6 +2695,7 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_profileFragment_to_homeFragment
 id action_signInFragment_to_forgotPasswordFragment
 id action_signInFragment_to_homeFragment
 id action_signInFragment_to_signUpFragment
@@ -2757,6 +2761,7 @@ id chip2
 id chip3
 id chip_group
 id chronometer
+id circleImageViewProfile
 id circle_center
 id clear_text
 id click_button
@@ -2786,6 +2791,7 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id delete_account
 id deltaRelative
 id dependency_ordering
 id design_bottom_sheet
@@ -2877,6 +2883,7 @@ id jumpToEnd
 id jumpToStart
 id labeled
 id layout
+id layout_before_sign_in
 id left
 id leftToRight
 id legacy
@@ -2912,6 +2919,8 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id media_actions
+id menu_sign_in_link
+id menu_sign_up_link
 id message
 id middle
 id mini
@@ -2996,6 +3005,7 @@ id percent
 id pin
 id position
 id postLayout
+id profileFragment
 id progress_circular
 id progress_horizontal
 id radio
@@ -3135,6 +3145,8 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_after_sign_in_user_email
+id tv_after_sign_in_user_name
 id tv_alreadyhave_text
 id tv_forgot_password_link
 id tv_reset_user_email
@@ -3142,6 +3154,7 @@ id tv_signIn_user_email
 id tv_signIn_user_password
 id tv_sign_in_link
 id tv_sign_up_link
+id tv_text_before_sign_in
 id tv_user_email
 id tv_user_name
 id tv_user_password
@@ -3150,8 +3163,8 @@ id unchecked
 id uniform
 id unlabeled
 id up
+id update_profile
 id useLogo
-id user_name
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -3278,6 +3291,8 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_forgot_password
 layout fragment_home
+layout fragment_new_list
+layout fragment_profile
 layout fragment_sign_in
 layout fragment_sign_up
 layout m3_alert_dialog

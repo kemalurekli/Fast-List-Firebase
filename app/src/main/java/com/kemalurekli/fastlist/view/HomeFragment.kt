@@ -41,7 +41,6 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.clickButton.setOnClickListener {
-            println("hellooooooo")
             Toast.makeText(requireContext(),"this is toast message", Toast.LENGTH_SHORT).show()
         }
         binding.logOutButton.setOnClickListener {

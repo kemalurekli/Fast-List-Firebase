@@ -124,6 +124,10 @@
         "source": "/Users/kemal/AndroidStudioProjects/FastList/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
     },
     {
+        "merged": "/Users/kemal/AndroidStudioProjects/FastList/app/build/intermediates/merged_res/debug/layout_fragment_new_list.xml.flat",
+        "source": "/Users/kemal/AndroidStudioProjects/FastList/app/src/main/res/layout/fragment_new_list.xml"
+    },
+    {
         "merged": "/Users/kemal/AndroidStudioProjects/FastList/app/build/intermediates/merged_res/debug/menu_add_menu.xml.flat",
         "source": "/Users/kemal/AndroidStudioProjects/FastList/app/src/main/res/menu/add_menu.xml"
     },
@@ -146,5 +150,9 @@
     {
         "merged": "/Users/kemal/AndroidStudioProjects/FastList/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "/Users/kemal/AndroidStudioProjects/FastList/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/kemal/AndroidStudioProjects/FastList/app/build/intermediates/merged_res/debug/layout_fragment_profile.xml.flat",
+        "source": "/Users/kemal/AndroidStudioProjects/FastList/app/src/main/res/layout/fragment_profile.xml"
     }
 ]

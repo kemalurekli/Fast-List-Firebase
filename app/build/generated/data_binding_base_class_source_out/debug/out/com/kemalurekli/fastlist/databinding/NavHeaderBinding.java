@@ -8,6 +8,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.LinearLayoutCompat;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.kemalurekli.fastlist.R;
@@ -20,11 +21,34 @@ public final class NavHeaderBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final TextView userName;
+  public final LinearLayoutCompat layoutBeforeSignIn;
 
-  private NavHeaderBinding(@NonNull LinearLayout rootView, @NonNull TextView userName) {
+  @NonNull
+  public final TextView menuSignInLink;
+
+  @NonNull
+  public final TextView menuSignUpLink;
+
+  @NonNull
+  public final TextView tvAfterSignInUserEmail;
+
+  @NonNull
+  public final TextView tvAfterSignInUserName;
+
+  @NonNull
+  public final TextView tvTextBeforeSignIn;
+
+  private NavHeaderBinding(@NonNull LinearLayout rootView,
+      @NonNull LinearLayoutCompat layoutBeforeSignIn, @NonNull TextView menuSignInLink,
+      @NonNull TextView menuSignUpLink, @NonNull TextView tvAfterSignInUserEmail,
+      @NonNull TextView tvAfterSignInUserName, @NonNull TextView tvTextBeforeSignIn) {
     this.rootView = rootView;
-    this.userName = userName;
+    this.layoutBeforeSignIn = layoutBeforeSignIn;
+    this.menuSignInLink = menuSignInLink;
+    this.menuSignUpLink = menuSignUpLink;
+    this.tvAfterSignInUserEmail = tvAfterSignInUserEmail;
+    this.tvAfterSignInUserName = tvAfterSignInUserName;
+    this.tvTextBeforeSignIn = tvTextBeforeSignIn;
   }
 
   @Override
@@ -54,13 +78,44 @@ public final class NavHeaderBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.user_name;
-      TextView userName = ViewBindings.findChildViewById(rootView, id);
-      if (userName == null) {
+      id = R.id.layout_before_sign_in;
+      LinearLayoutCompat layoutBeforeSignIn = ViewBindings.findChildViewById(rootView, id);
+      if (layoutBeforeSignIn == null) {
         break missingId;
       }
 
-      return new NavHeaderBinding((LinearLayout) rootView, userName);
+      id = R.id.menu_sign_in_link;
+      TextView menuSignInLink = ViewBindings.findChildViewById(rootView, id);
+      if (menuSignInLink == null) {
+        break missingId;
+      }
+
+      id = R.id.menu_sign_up_link;
+      TextView menuSignUpLink = ViewBindings.findChildViewById(rootView, id);
+      if (menuSignUpLink == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_after_sign_in_user_email;
+      TextView tvAfterSignInUserEmail = ViewBindings.findChildViewById(rootView, id);
+      if (tvAfterSignInUserEmail == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_after_sign_in_user_name;
+      TextView tvAfterSignInUserName = ViewBindings.findChildViewById(rootView, id);
+      if (tvAfterSignInUserName == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_text_before_sign_in;
+      TextView tvTextBeforeSignIn = ViewBindings.findChildViewById(rootView, id);
+      if (tvTextBeforeSignIn == null) {
+        break missingId;
+      }
+
+      return new NavHeaderBinding((LinearLayout) rootView, layoutBeforeSignIn, menuSignInLink,
+          menuSignUpLink, tvAfterSignInUserEmail, tvAfterSignInUserName, tvTextBeforeSignIn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
